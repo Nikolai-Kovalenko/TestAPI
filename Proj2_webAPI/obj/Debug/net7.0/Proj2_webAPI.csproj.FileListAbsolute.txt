@@ -23,3 +23,10 @@ F:\Project\WebAPI_ITVDN\Proj2_webAPI\obj\Debug\net7.0\refint\Proj2_webAPI.dll
 F:\Project\WebAPI_ITVDN\Proj2_webAPI\obj\Debug\net7.0\Proj2_webAPI.pdb
 F:\Project\WebAPI_ITVDN\Proj2_webAPI\obj\Debug\net7.0\Proj2_webAPI.genruntimeconfig.cache
 F:\Project\WebAPI_ITVDN\Proj2_webAPI\obj\Debug\net7.0\ref\Proj2_webAPI.dll
+F:\Project\WebAPI_ITVDN\Proj2_webAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Owin.dll
+F:\Project\WebAPI_ITVDN\Proj2_webAPI\bin\Debug\net7.0\Microsoft.DotNet.PlatformAbstractions.dll
+F:\Project\WebAPI_ITVDN\Proj2_webAPI\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+F:\Project\WebAPI_ITVDN\Proj2_webAPI\bin\Debug\net7.0\Microsoft.Extensions.PlatformAbstractions.dll
+F:\Project\WebAPI_ITVDN\Proj2_webAPI\bin\Debug\net7.0\Nancy.dll
+F:\Project\WebAPI_ITVDN\Proj2_webAPI\bin\Debug\net7.0\Newtonsoft.Json.dll
+F:\Project\WebAPI_ITVDN\Proj2_webAPI\obj\Debug\net7.0\Proj2_webAPI.csproj.CopyComplete

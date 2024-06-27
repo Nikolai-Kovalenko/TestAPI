@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using System.Runtime.ConstrainedExecution;
 using System;
+using Nancy.Owin;
 
 namespace Proj2_webAPI
 {
@@ -28,6 +29,7 @@ namespace Proj2_webAPI
 
         public void Configure(IApplicationBuilder app)
         {
+            app.UseHttpsRedirection();
             if (_env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -38,6 +40,7 @@ namespace Proj2_webAPI
             {
                 endpoints.MapControllers();
             });
+            app.UseOwin(x => x.UseNancy());
         }
     }
 }
