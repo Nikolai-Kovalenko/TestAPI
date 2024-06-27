@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Proj2_webAPI.props" />
+</Project>

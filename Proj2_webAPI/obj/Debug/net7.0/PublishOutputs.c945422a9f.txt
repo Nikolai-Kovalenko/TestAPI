@@ -1,0 +1,6 @@
+F:\Project\WebAPI_ITVDN\Proj2_webAPI\bin\Debug\net7.0\publish\Proj2_webAPI.exe
+F:\Project\WebAPI_ITVDN\Proj2_webAPI\bin\Debug\net7.0\publish\AppSettings.json
+F:\Project\WebAPI_ITVDN\Proj2_webAPI\bin\Debug\net7.0\publish\Proj2_webAPI.dll
+F:\Project\WebAPI_ITVDN\Proj2_webAPI\bin\Debug\net7.0\publish\Proj2_webAPI.deps.json
+F:\Project\WebAPI_ITVDN\Proj2_webAPI\bin\Debug\net7.0\publish\Proj2_webAPI.runtimeconfig.json
+F:\Project\WebAPI_ITVDN\Proj2_webAPI\bin\Debug\net7.0\publish\Proj2_webAPI.pdb
