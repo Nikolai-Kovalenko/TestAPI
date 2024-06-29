@@ -24,6 +24,11 @@ namespace Proj2_webAPI
 
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddLogging(builder =>
+            {
+                builder.AddConsole(); // Добавляем консольный логгер
+            });
+
             services.AddControllers();
         }
 
@@ -34,6 +39,9 @@ namespace Proj2_webAPI
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            // Добавляем наше логгирование запросов как middleware
+            app.UseMiddleware<RequestLoggingMiddleware>();
 
             app.UseRouting();
             app.UseEndpoints(endpoints =>

@@ -30,3 +30,12 @@ F:\Project\WebAPI_ITVDN\Proj2_webAPI\bin\Debug\net7.0\Microsoft.Extensions.Platf
 F:\Project\WebAPI_ITVDN\Proj2_webAPI\bin\Debug\net7.0\Nancy.dll
 F:\Project\WebAPI_ITVDN\Proj2_webAPI\bin\Debug\net7.0\Newtonsoft.Json.dll
 F:\Project\WebAPI_ITVDN\Proj2_webAPI\obj\Debug\net7.0\Proj2_webAPI.csproj.CopyComplete
+F:\Project\WebAPI_ITVDN\Proj2_webAPI\bin\Debug\net7.0\AllBooks.json
+F:\Project\WebAPI_ITVDN\Proj2_webAPI\bin\Debug\net7.0\Microsoft.Owin.dll
+F:\Project\WebAPI_ITVDN\Proj2_webAPI\bin\Debug\net7.0\Owin.dll
+F:\Project\WebAPI_ITVDN\Proj2_webAPI\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.dll
+F:\Project\WebAPI_ITVDN\Proj2_webAPI\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\Project\WebAPI_ITVDN\Proj2_webAPI\bin\Debug\net7.0\Microsoft.Extensions.Logging.dll
+F:\Project\WebAPI_ITVDN\Proj2_webAPI\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+F:\Project\WebAPI_ITVDN\Proj2_webAPI\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+F:\Project\WebAPI_ITVDN\Proj2_webAPI\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
