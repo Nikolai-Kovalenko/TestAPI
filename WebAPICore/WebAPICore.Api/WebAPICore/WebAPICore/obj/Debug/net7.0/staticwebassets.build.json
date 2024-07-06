@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "EB8ZV6wXwuu+F8xAm5uqxzZnMqaxOCKtjedY6ZiRuYI=",
+  "Source": "WebAPICore.Api",
+  "BasePath": "_content/WebAPICore.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

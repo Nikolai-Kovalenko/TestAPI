@@ -1,0 +1,15 @@
+F:\Project\WebAPI_ITVDN\WebServer\Client\Client\Client\bin\Debug\net7.0\Client.exe
+F:\Project\WebAPI_ITVDN\WebServer\Client\Client\Client\bin\Debug\net7.0\Client.deps.json
+F:\Project\WebAPI_ITVDN\WebServer\Client\Client\Client\bin\Debug\net7.0\Client.runtimeconfig.json
+F:\Project\WebAPI_ITVDN\WebServer\Client\Client\Client\bin\Debug\net7.0\Client.dll
+F:\Project\WebAPI_ITVDN\WebServer\Client\Client\Client\bin\Debug\net7.0\Client.pdb
+F:\Project\WebAPI_ITVDN\WebServer\Client\Client\Client\obj\Debug\net7.0\Client.csproj.AssemblyReference.cache
+F:\Project\WebAPI_ITVDN\WebServer\Client\Client\Client\obj\Debug\net7.0\Client.GeneratedMSBuildEditorConfig.editorconfig
+F:\Project\WebAPI_ITVDN\WebServer\Client\Client\Client\obj\Debug\net7.0\Client.AssemblyInfoInputs.cache
+F:\Project\WebAPI_ITVDN\WebServer\Client\Client\Client\obj\Debug\net7.0\Client.AssemblyInfo.cs
+F:\Project\WebAPI_ITVDN\WebServer\Client\Client\Client\obj\Debug\net7.0\Client.csproj.CoreCompileInputs.cache
+F:\Project\WebAPI_ITVDN\WebServer\Client\Client\Client\obj\Debug\net7.0\Client.dll
+F:\Project\WebAPI_ITVDN\WebServer\Client\Client\Client\obj\Debug\net7.0\refint\Client.dll
+F:\Project\WebAPI_ITVDN\WebServer\Client\Client\Client\obj\Debug\net7.0\Client.pdb
+F:\Project\WebAPI_ITVDN\WebServer\Client\Client\Client\obj\Debug\net7.0\Client.genruntimeconfig.cache
+F:\Project\WebAPI_ITVDN\WebServer\Client\Client\Client\obj\Debug\net7.0\ref\Client.dll

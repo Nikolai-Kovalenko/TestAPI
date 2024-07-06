@@ -1,0 +1,14 @@
+F:\Project\WebAPI_ITVDN\WebAPICore\WebAPICore.Api\WebAPICore\WebAPICore.Data\bin\Debug\net7.0\WebAPICore.Data.deps.json
+F:\Project\WebAPI_ITVDN\WebAPICore\WebAPICore.Api\WebAPICore\WebAPICore.Data\bin\Debug\net7.0\WebAPICore.Data.runtimeconfig.json
+F:\Project\WebAPI_ITVDN\WebAPICore\WebAPICore.Api\WebAPICore\WebAPICore.Data\bin\Debug\net7.0\WebAPICore.Data.dll
+F:\Project\WebAPI_ITVDN\WebAPICore\WebAPICore.Api\WebAPICore\WebAPICore.Data\bin\Debug\net7.0\WebAPICore.Data.pdb
+F:\Project\WebAPI_ITVDN\WebAPICore\WebAPICore.Api\WebAPICore\WebAPICore.Data\obj\Debug\net7.0\WebAPICore.Data.csproj.AssemblyReference.cache
+F:\Project\WebAPI_ITVDN\WebAPICore\WebAPICore.Api\WebAPICore\WebAPICore.Data\obj\Debug\net7.0\WebAPICore.Data.GeneratedMSBuildEditorConfig.editorconfig
+F:\Project\WebAPI_ITVDN\WebAPICore\WebAPICore.Api\WebAPICore\WebAPICore.Data\obj\Debug\net7.0\WebAPICore.Data.AssemblyInfoInputs.cache
+F:\Project\WebAPI_ITVDN\WebAPICore\WebAPICore.Api\WebAPICore\WebAPICore.Data\obj\Debug\net7.0\WebAPICore.Data.AssemblyInfo.cs
+F:\Project\WebAPI_ITVDN\WebAPICore\WebAPICore.Api\WebAPICore\WebAPICore.Data\obj\Debug\net7.0\WebAPICore.Data.csproj.CoreCompileInputs.cache
+F:\Project\WebAPI_ITVDN\WebAPICore\WebAPICore.Api\WebAPICore\WebAPICore.Data\obj\Debug\net7.0\WebAPICore.Data.dll
+F:\Project\WebAPI_ITVDN\WebAPICore\WebAPICore.Api\WebAPICore\WebAPICore.Data\obj\Debug\net7.0\refint\WebAPICore.Data.dll
+F:\Project\WebAPI_ITVDN\WebAPICore\WebAPICore.Api\WebAPICore\WebAPICore.Data\obj\Debug\net7.0\WebAPICore.Data.pdb
+F:\Project\WebAPI_ITVDN\WebAPICore\WebAPICore.Api\WebAPICore\WebAPICore.Data\obj\Debug\net7.0\WebAPICore.Data.genruntimeconfig.cache
+F:\Project\WebAPI_ITVDN\WebAPICore\WebAPICore.Api\WebAPICore\WebAPICore.Data\obj\Debug\net7.0\ref\WebAPICore.Data.dll
