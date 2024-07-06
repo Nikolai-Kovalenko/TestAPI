@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "dgSpecHash": "dDxZV4bxKpyYQW3Wygqw/ZLs8R/RBQ5vP7LW3Abu7lFnytSH2w5uplB10m7Vr6kh2gR5lR/5ug+iUuBN79u3Sg==",
+  "success": true,
+  "projectFilePath": "F:\\Project\\WebAPI_ITVDN\\WebSocket\\WSClient\\WSClient\\WSClient\\WSClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nik\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\8.0.0\\microsoft.aspnetcore.connections.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\nik\\.nuget\\packages\\microsoft.aspnetcore.http.connections.client\\8.0.0\\microsoft.aspnetcore.http.connections.client.8.0.0.nupkg.sha512",
+    "C:\\Users\\nik\\.nuget\\packages\\microsoft.aspnetcore.http.connections.common\\8.0.0\\microsoft.aspnetcore.http.connections.common.8.0.0.nupkg.sha512",
+    "C:\\Users\\nik\\.nuget\\packages\\microsoft.aspnetcore.signalr.client\\8.0.0\\microsoft.aspnetcore.signalr.client.8.0.0.nupkg.sha512",
+    "C:\\Users\\nik\\.nuget\\packages\\microsoft.aspnetcore.signalr.client.core\\8.0.0\\microsoft.aspnetcore.signalr.client.core.8.0.0.nupkg.sha512",
+    "C:\\Users\\nik\\.nuget\\packages\\microsoft.aspnetcore.signalr.common\\8.0.0\\microsoft.aspnetcore.signalr.common.8.0.0.nupkg.sha512",
+    "C:\\Users\\nik\\.nuget\\packages\\microsoft.aspnetcore.signalr.protocols.json\\8.0.0\\microsoft.aspnetcore.signalr.protocols.json.8.0.0.nupkg.sha512",
+    "C:\\Users\\nik\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\8.0.0\\microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512",
+    "C:\\Users\\nik\\.nuget\\packages\\microsoft.bcl.timeprovider\\8.0.0\\microsoft.bcl.timeprovider.8.0.0.nupkg.sha512",
+    "C:\\Users\\nik\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\nik\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\nik\\.nuget\\packages\\microsoft.extensions.features\\8.0.0\\microsoft.extensions.features.8.0.0.nupkg.sha512",
+    "C:\\Users\\nik\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0\\microsoft.extensions.logging.8.0.0.nupkg.sha512",
+    "C:\\Users\\nik\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\nik\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "C:\\Users\\nik\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\nik\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512",
+    "C:\\Users\\nik\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
+    "C:\\Users\\nik\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512",
+    "C:\\Users\\nik\\.nuget\\packages\\system.threading.channels\\8.0.0\\system.threading.channels.8.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "WSClient depends on Microsoft.AspNetCore.SignalR.Client (>= 7.2.0) but Microsoft.AspNetCore.SignalR.Client 7.2.0 was not found. An approximate best match of Microsoft.AspNetCore.SignalR.Client 8.0.0 was resolved.",
+      "libraryId": "Microsoft.AspNetCore.SignalR.Client",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
+}

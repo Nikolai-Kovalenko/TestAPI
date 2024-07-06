@@ -16,7 +16,6 @@ namespace Client
         {
             Console.WriteLine("start Program");
             Start();
-            
         }
 
         public static void Start()
