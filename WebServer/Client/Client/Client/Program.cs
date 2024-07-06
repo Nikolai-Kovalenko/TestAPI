@@ -1,6 +1,8 @@
-﻿using System.Net.Sockets;
+﻿using System.Net.Security;
+using System.Net.Sockets;
 using System.Reflection;
 using System.Runtime.CompilerServices;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Xml.Serialization;
 
@@ -23,11 +25,21 @@ namespace Client
             {
                 //host = "habr.com";
                 TcpClient client = new TcpClient();
+                                                                                                    
+                client.Connect(host, 443);
 
-                client.Connect(host, 80);
+                //NetworkStream networkStream = client.GetStream();
+                //networkStream.ReadTimeout = 2000;
 
-                NetworkStream networkStream = client.GetStream();
-                networkStream.ReadTimeout = 2000;    
+                SslStream sslStream = new SslStream(
+                    client.GetStream(),
+                    false,
+                    new RemoteCertificateValidationCallback(ValidateServerCertificate),
+                    null
+                );
+
+                sslStream.AuthenticateAsClient("");
+                sslStream.ReadTimeout = 2000;
 
                 StringBuilder dataComplier = new StringBuilder();
                 dataComplier.AppendLine("GET / HTTP/1.1");
@@ -39,10 +51,10 @@ namespace Client
 
                 string reuestData = dataComplier.ToString();
 
-                networkStream.Write(Encoding.UTF8.GetBytes(reuestData));
+                sslStream.Write(Encoding.UTF8.GetBytes(reuestData));
                 Console.WriteLine(reuestData);
 
-                var reader = new StreamReader(networkStream, Encoding.UTF8);
+                var reader = new StreamReader(sslStream, Encoding.UTF8);
 
                 Console.WriteLine("TCP Received: ");
                 Console.WriteLine("request: " + reader.ReadToEnd());
@@ -63,6 +75,11 @@ namespace Client
                 Start();
             }
 
+        }
+
+        private static bool ValidateServerCertificate(object sender, X509Certificate certiticate, X509Chain chain, SslPolicyErrors sslPolicy)
+        {
+            return true;
         }
     }
 }
