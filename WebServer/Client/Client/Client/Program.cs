@@ -10,7 +10,7 @@ namespace Client
 {
     class Program
     {
-        public static string host = "habr.com";
+        public static string host = "www.google.com";
 
         public static void Main(string[] args)
         {
