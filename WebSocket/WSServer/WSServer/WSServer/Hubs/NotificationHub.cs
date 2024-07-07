@@ -17,7 +17,7 @@ namespace WSServer.Hubs
         {
             await Clients.All.SendAsync("ReciveMassage", message);
         }
-        `
+        
         public async Task SendMessageToCaller(string message)
         {
             await Clients.Caller.SendAsync("ReciveMassage", message);

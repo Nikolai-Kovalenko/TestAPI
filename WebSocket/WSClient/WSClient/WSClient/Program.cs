@@ -5,16 +5,16 @@ namespace WSClient
 {
     class Program
     {
-        private static HubConnection connection;
+        private static HubConnection _connection;
 
         async static Task Main(string[] args)
         {
-            var connection = new HubConnectionBuilder()
-                .WithUrl("http://localchost:5000/notification")
+            _connection = new HubConnectionBuilder()
+                .WithUrl("http://localhost:5236/notification")
                 .WithAutomaticReconnect()
                 .Build();
 
-            connection.On<string>("ReciveMassage", (massage) =>
+            _connection.On<string>("ReciveMassage", (massage) =>
             {
                 var newMessage = $"{DateTime.Now.ToShortTimeString()}: {massage}";
                 Console.WriteLine(newMessage);
@@ -22,7 +22,7 @@ namespace WSClient
 
             try
             {
-                await connection.StartAsync();
+                await _connection.StartAsync();
                 Console.WriteLine("Connection Started");
                 await waitForMassage();
             }
@@ -40,8 +40,8 @@ namespace WSClient
                 try
                 {
                     Console.WriteLine("You say: ");
-                    var massage = Console.ReadLine();
-                    await connection.InvokeAsync("SendMassageToAllUser", massage);
+                    var massage = Console.ReadLine().ToString();
+                    await _connection.InvokeAsync("SendMassageToAllUser", massage);
                 }
                 catch (Exception e)
                 {
